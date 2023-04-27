@@ -1,1 +1,1 @@
-# Neural-Style-Transfer-PyTorch
+# Neural Style Transfer - PyTorch Implementation
