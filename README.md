@@ -52,7 +52,10 @@ python test_on_image.py  --image_path <path-to-image> \
 + The Stylized images will be save the directory `images/outputs`
 
 ## Test on Video
-
+We need to install FFmpeg to stylize a video.
++ Download FFmpeg from [here](https://ffmpeg.org/download.html)
++ Extract the files and place in the directory `C:\ffmpeg`
++ Add the location of ffmpeg.exe in the PATH variable and restart the system.
 ```
 python test_on_video.py  --video_path <path-to-video> \
                           --checkpoint_model <path-to-checkpoint> \
